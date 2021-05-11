@@ -1,0 +1,973 @@
+<html>
+
+<head>
+  <link href="css/master.css" rel="stylesheet" type="text/css"/>
+  <title>News</title>
+</head>
+
+<body>
+<div id="page">
+  <h1 id="title">JazzScheme</h1>
+  <div id="sectionnav">
+    <a class="section" href="index.htm">Home</a>
+    <a class="section" href="news.htm">
+      <b>News</b>
+    </a>
+    <a class="section" href="features.htm">Features</a>
+    <a class="section" href="screenshots.htm">Screenshots</a>
+    <a class="section" href="community.htm">Community</a>
+    <a class="section" href="install.htm">Install</a>
+  </div>
+  <div id="content">
+    <div>
+      <h3>News</h3>
+      <ul>
+        <li>
+          <span>
+2011-04-12 -             <a href="news.htm#2011-04-12">JazzScheme 2.4, 2.5 and 2.6 released</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2010-08-21 -             <a href="news.htm#2010-08-21">Presentation at the 2010 Workshop on Scheme and Functional Programming</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2010-03-22 -             <a href="news.htm#2010-03-22">JazzScheme 2.3 released</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2009-10-19 -             <a href="news.htm#2009-10-19">JazzScheme embraces its Scheme destiny!</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2009-06-27 -             <a href="news.htm#2009-06-27">Auphelia Technologies to use JazzScheme for their new ERP software</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2009-01-26 -             <a href="news.htm#2009-01-26">JazzScheme Publicly Released</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-12-24 -             <a href="news.htm#2008-12-24">Closed-beta Release to the discusion group members</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-11-27 -             <a href="news.htm#2008-11-27">Presentation at the MSLUG and closed-beta release</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-11-06 -             <a href="news.htm#2008-11-06">X11 Port and Debugger Update</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-09-26 -             <a href="news.htm#2008-09-26">Public Open-Source Release Update</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-04-30 -             <a href="news.htm#2008-04-30">Contract awarded to use the new Gambit based JazzScheme</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-04-29 -             <a href="news.htm#2008-04-29">Progress update</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2008-02-04 -             <a href="news.htm#2008-02-04">New build system fully implemented in Gambit</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-11-11 -             <a href="news.htm#2007-11-11">New Gambit based kernel now faster than the old C++ kernel!</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-09-26 -             <a href="news.htm#2007-09-26">Jedi running under the new Gambit based kernel</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-08-08 -             <a href="news.htm#2007-08-08">Presentation at the lispvan</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-05-28 -             <a href="news.htm#2007-05-28">JazzScheme 1.0b6 available</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-05-14 -             <a href="news.htm#2007-05-14">Work on porting JazzScheme to X11 and Macintosh started</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-05-03 -             <a href="news.htm#2007-05-03">JazzScheme 1.0b5 available</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-04-23 -             <a href="news.htm#2007-04-23">JazzScheme public beta released</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2007-01-12 -             <a href="news.htm#2007-01-12">JazzScheme ported to Visual Studio 2005</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2006-12-13 -             <a href="news.htm#2006-12-13">Presentation at the MSLUG</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2006-12-12 -             <a href="news.htm#2006-12-12">Montreal company to use JazzScheme</a>
+          </span>
+        </li>
+        <li>
+          <span>
+2006-11-22 -             <a href="news.htm#2006-11-22">Website goes live</a>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <a name="2011-04-12"></a>
+      <h3>2011-04-12 - JazzScheme 2.4, 2.5 and 2.6 released</h3>
+JazzScheme 2.4, 2.5 and 2.6 are now available. See       <a href="install.htm">Install</a>
+ for details on installing Jazz and Jedi.       <p></p>
+      <br/>
+NEW IN 2.5 and 2.6      <br/>
+      <br/>
+Setup      <p></p>
+      <ul>
+        <li>Now using Git submodules to manage the dependencies between Jedi, Jazz and Gambit</li>
+        <li>Created a fully bootstrappable Gambit repository now included as a submodule of Jazz</li>
+        <li>Added a jam script to manage everything build and repository related</li>
+      </ul>
+      <p></p>
+Build      <p></p>
+      <ul>
+        <li>Use TCP ports for robust subprocess parallel build</li>
+        <li>Added a -dry kernel build option</li>
+        <li>Added .jamini to customize configure options</li>
+      </ul>
+      <p></p>
+Kernel      <p></p>
+      <ul>
+        <li>Removed the hardcoded HOME/jazz_user repository</li>
+        <li>Now generating a clean kernel-interpret script instead of the old .gambcini hack</li>
+        <li>Added a kernel -nosource option to simulate the deployment environment</li>
+        <li>Added support for specifying chained binary repositories</li>
+        <li>Added a -l (local) option to jam to not update the submodules</li>
+      </ul>
+      <p></p>
+Language      <p></p>
+      <ul>
+        <li>Added reference reification</li>
+        <li>Added assertions to special forms and related validation suite test cases</li>
+        <li>Exemplars are now full-fledged class-based prototypes</li>
+        <li>Colors and fonts and all user configuration classes are now exemplars</li>
+        <li>Module reference syntax is now a.b.c:x</li>
+        <li>Changed core syntax from jazz. to jazz:</li>
+        <li>Added scripting support through a script special-form and a load-script function</li>
+      </ul>
+      <p></p>
+Library      <p></p>
+      <ul>
+        <li>Added Windows support for OpenGL GLUT</li>
+        <li>Use the new continuation-checkpoint for C frames protection</li>
+        <li>Implemented a cross-platform color chooser with user-customisable live feedback</li>
+        <li>New hierarchical aliases</li>
+        <li>Added push/pop-focus to implement keyboard-navigable menus</li>
+        <li>Added location info to crash snapshots</li>
+        <li>New grid infrastructure</li>
+        <li>Added support for Gambit readtables</li>
+        <li>Added basic JSON support</li>
+        <li>Refactored the text to a model / view architecture</li>
+      </ul>
+      <p></p>
+Jedi      <p></p>
+      <ul>
+        <li>Added a new workspace for formatted editing</li>
+        <li>In the login dialog holding the shift key after login will skip the 'Always use this profile' setting</li>
+        <li>Generalized versioned-directory</li>
+        <li>Moved profiles to versioned .jedi dir</li>
+        <li>Dynamic evaluation now collects export / import initial forms</li>
+      </ul>
+      <p></p>
+Projects      <p></p>
+      <ul>
+        <li>Major rework of everything project related</li>
+        <li>Projects are now pure data so that Jedi does not need access to the project modules anymore</li>
+        <li>Pathnames imported in a project will be relative to the project when possible</li>
+        <li>Can now create or install a project at any level in the workbench</li>
+        <li>Added a projects manager window to activate / deactivate projects</li>
+        <li>Added Synchronize Content to workbench directory menu</li>
+        <li>Added searching project files</li>
+        <li>Not finding the active-project doesn't stop Jedi from launching anymore</li>
+      </ul>
+      <p></p>
+Search      <p></p>
+      <ul>
+        <li>Major recoding of everything search related</li>
+        <li>Now cataloging a.b.X and a:b:c references</li>
+        <li>Who-calls now automatically selects the first occurence</li>
+        <li>Added declaration and selection searching</li>
+        <li>Incremental search replace-all with replace highlighting</li>
+        <li>Added n of m feedback to incremental search</li>
+        <li>Added splitting support similar to emacs c-x c-1,2,3,0 using the new model / view text</li>
+        <li>Integrated the highlighting framework to the incremental search</li>
+      </ul>
+      <p></p>
+Designer      <p></p>
+      <ul>
+        <li>Major work on the UI designer</li>
+      </ul>
+      <p></p>
+Customisation      <p></p>
+      <ul>
+        <li>Work on making every part of the UI skinnable</li>
+        <li>Made the following UI elements user customisable :</li>
+        <ul>
+          <li>Bindings</li>
+          <li>Colors</li>
+          <li>Fonts</li>
+          <li>Skins</li>
+          <li>Text formats and styles</li>
+          <li>Workspaces</li>
+        </ul>
+      </ul>
+      <br/>
+ON THE HORIZON      <p></p>
+      <ul>
+        <li>Support for multiple backends</li>
+        <li>Experimental JavaScript backend</li>
+        <li>Experimental Objective-C backend</li>
+      </ul>
+      <p></p>
+      <br/>
+NEW IN 2.4      <br/>
+      <br/>
+Kernel      <p></p>
+      <ul>
+        <li> Added support for .jazz settings automatic versioning</li>
+        <li> Added a script to walk all units that can be invoked with -run walk</li>
+        <li> Added -emit to the kernel to save emitted scheme code</li>
+        <li> Added a -build option to the kernel to build a product without its dependencies</li>
+        <li> Now loading .buildini before setting up repositories</li>
+        <li> Added (jazz.warn-interpreted? 'stack) to display load-stack</li>
+        <li> .jazzini and .buildini are now also searched in the current directory</li>
+        <li> Added -keep-c and -expansion options to -compile</li>
+        <li> Improved error reporting for circular unit dependencies</li>
+      </ul>
+      <p></p>
+Build System      <p></p>
+      <ul>
+        <li> Added a new mutable-bindings? build flag</li>
+        <li> Obliterate timestamps in libraries, executables and .o1 to support stable builds</li>
+        <li> Added make cleanlibrary and make cleanobject to the build system</li>
+        <li> Added a new 'all' build system target to build jedi and all the samples</li>
+        <li> Added support for multiple binary repositories</li>
+        <li> Added a kernel option to specify the build repository: -build-repository</li>
+        <li> Added kernel options for specifying repositories: -jazz-repository -user-repository -repositories</li>
+      </ul>
+      <p></p>
+Language      <p></p>
+      <ul>
+        <li> Added types for DSSSL special markers (#!optional, #!key and #!rest)</li>
+        <li> Added base64 module (from Gambit's examples)</li>
+        <li> Now supporting slots in meta classes</li>
+      </ul>
+      <p></p>
+Framework      <p></p>
+      <ul>
+        <li> Separated branches into traits and branches</li>
+        <li> Unified view properties: action and action-handler</li>
+        <li> Optimized merge-cell drawing</li>
+        <li> Lexicon cleanup for outlines: site: row column, cell: line col</li>
+        <li> Added a glyph index cache (major speed up)</li>
+        <li> Added a cache for opaque images (major speed up)</li>
+        <li> Now calling cairo_win32_surface_create_with_ddb to create the offscreen on Windows (5x speed up in the blit)</li>
+        <li> Made memory surfaces use CAIRO_FORMAT_RGB24 (with 4x speed gain)</li>
+        <li> Major optimization of the paint algorithm</li>
+        <li> Added various flags to make component destruction a lot more robust</li>
+        <li> Cleanup of the argument/setting concept that is now called parameter</li>
+        <li> Work on external frames</li>
+        <li> Major work in the focus activation code</li>
+        <li> Removed flicker by adding a new user-feedback function to use when immediate update is needed</li>
+        <li> Snapshots now save object content recursively controlled by max-depth: default 1</li>
+        <li> Added basic support for fontconfig to access system fonts</li>
+        <li> Unified focusable? and selectable? properties so that we now have in progression: enabled? selectable? editable?</li>
+        <li> Added support for views in merged-cells</li>
+        <li> Big cleanup of every image related module</li>
+      </ul>
+      <p></p>
+IDE      <p></p>
+      <ul>
+        <li> Added a simple skins manager in the tools menu</li>
+        <li> Skins are now user configurable from a Skins.jml settings file</li>
+        <li> Added skin support</li>
+        <li> Work on making IDE functionality more modular</li>
+        <li> Added favorites support</li>
+        <li> Added a new profiling-advice</li>
+        <li> Added prefixed advice: (advice 'jazz.ui.* ...)</li>
+        <li> Added debug-avice + Improved trace-advice output</li>
+        <li> Added a new advice function and support for runtime introspection</li>
+        <li> Added jazz.git.ui with a simple Git-Explorer class</li>
+        <li> Various improvements to the SQL workspace</li>
+        <li> Search dialog / Projects tab: Greatly improved response time + Everything can now be used (Whole Words, Ignore Case and even Regexp!)</li>
+        <li> Now standardizing the profile argument so it doesn't need to be capitalized anymore</li>
+        <li> Loging dialog default profile can now be specified using -default-profile</li>
+        <li> The minibuffer can now be hidden/shown automatically</li>
+        <li> Basic commands like c-a and c-e now auto exit incremental search</li>
+        <li> First implementation of multi-stage management 'a la emacs'</li>
+        <li> Added support for multiple independent stages</li>
+        <li> Added support for many emacs c-x commands</li>
+        <li> Added cataloging for colors and fonts</li>
+      </ul>
+      <p></p>
+Editor      <p></p>
+      <ul>
+        <li> Improved ctrl-alt-i display-info to show declaration hierarchy</li>
+        <li> Added a pulse-caret? text-preferences property</li>
+        <li> Added missing tabulation for various common lisp forms</li>
+        <li> Modified c-a logic to be more emacs compatible</li>
+        <li> Improved Chapters / Hierarchy navigation with double-click, return, escape and c-g support</li>
+        <li> Now sorting Chapters and Hierarchy by default</li>
+        <li> Added support for highlighting matching characters</li>
+        <li> Incremental search can now be used in any text including the console</li>
+      </ul>
+      <p></p>
+Debugger      <p></p>
+      <ul>
+        <li> Added @ to remote processes</li>
+        <li> Recuperate from calls to crashed debuggee</li>
+        <li> Added an explicit Restarts palette</li>
+        <li> Clicking a frame in a snapshot now edits the definition</li>
+        <li> Started work on Swank backtrace and restarts</li>
+        <li> Started experimental work on a Swank debugger</li>
+        <li> Added support for viewing snapshot files in the debugger</li>
+        <li> Fixed a long-standing crash in the remote inspector</li>
+        <li> Now detaching from controller even on low-level calls to exit</li>
+      </ul>
+      <p></p>
+Profiler      <p></p>
+      <ul>
+        <li> Implement remote profiler</li>
+        <li> Unified the deterministic and the statistical profilers</li>
+        <li> Basic port of the classic Jazz C++-based deterministic profiler</li>
+        <li> Now using high performance counters in statprof</li>
+        <li> Statprof now handles correctly FFI calls spawning multiple heartbeats</li>
+        <li> Added performance counter (high resolution timers) support</li>
+      </ul>
+      <p></p>
+WebServer      <p></p>
+      <ul>
+        <li> Initial Jazz webserver re-architecting.</li>
+        <li> Refactored contrib.webserver, simplified interface.</li>
+      </ul>
+    </div>
+    <div>
+      <a name="2010-08-21"></a>
+      <h3>2010-08-21 - Presentation at the 2010 Workshop on Scheme and Functional Programming</h3>
+      <p>
+An article "JazzScheme: Evolution of a Lisp-Based Development System" has been submited and accepted for presentation at the <a href="http://www.iro.umontreal.ca/~sfp2010">2010 Workshop on Scheme and Functional Programming. </a></p>
+      <p></p>
+      <p>See you there!</p>
+    </div>
+    <div>
+      <a name="2010-03-22"></a>
+      <h3>2010-03-22 - JazzScheme 2.3 released</h3>
+JazzScheme 2.3 is now available. See       <a href="install.htm">Install</a>
+ for details on installing Jazz and Jedi.       <p></p>
+      <br/>
+NEW IN 2.3      <br/>
+      <br/>
+  Kernel      <br/>
+      <ul>
+        <li>Added -load option to load a specific module</li>
+        <li>Added -eval option to evaluate code after loading the kernel</li>
+        <li>Added -test option to run the validation suite of a product</li>
+        <li>Added -force option to the kernel that can be used with -compile</li>
+        <li>New crash handler that will output a backtrace when a crash occurs</li>
+      </ul>
+      <br/>
+  Build System      <br/>
+      <ul>
+        <li>Static build of libraries</li>
+        <li>The Jazz kernel can now be built as a library</li>
+        <li>Build system is now fully scriptable</li>
+        <li>Added an option to build executables without including the Gambit compiler</li>
+        <li>Added new options to build without debug environments or debug location</li>
+        <li>Added parallel build support specified by jobs: number-of-jobs</li>
+        <li>Added a -link option (objects libraries all) to the build system</li>
+      </ul>
+      <br/>
+  Language      <br/>
+      <ul>
+        <li>Module require/import/export are now special forms</li>
+        <li>Added a validation suite for Jazz</li>
+        <li>Added support for public / protected modules</li>
+        <li>Import conflicts are now detected</li>
+        <li>Major simplification and cleanup of everything related to literals</li>
+        <li>Added walk-time argument count validation</li>
+        <li>Implementated runtime library access of its exported symbols</li>
+        <li>All Jazz exception handling now fully supports scheme exceptions</li>
+        <li>Printing load stack in error message when cyclic dependencies occur</li>
+        <li>Added override modifier to methods overriding a base virtual method</li>
+        <li>Replaced function special-form with lambda in all modules</li>
+        <li>Now supporting slots in meta classes</li>
+        <li>Added initial support for type-safe enumerations</li>
+      </ul>
+      <br/>
+  Hygiene (many thanks to Alex Shinn)      <br/>
+      <ul>
+        <li>Added support for hygienic macros using syntax-rules</li>
+        <li>Initial define-syntax support</li>
+        <li>Converted many macros to the new hygienic define-syntax</li>
+      </ul>
+      <br/>
+  Gambit      <br/>
+      <ul>
+        <li>Added a new 'gambit' library that exports every Gambit procedure</li>
+        <li>Now cataloging Gambit's define-type-of- special form</li>
+        <li>Added an API to Gambit's structures and types</li>
+        <li>Added support for s8/u8/.../f32/f64 homogeneous vectors</li>
+      </ul>
+      <br/>
+  Framework      <br/>
+      <ul>
+        <li>Every repository and package is now automatically an alias</li>
+        <li>Greatly improved load time of applications</li>
+      </ul>
+      <br/>
+  User Interface      <br/>
+      <ul>
+        <li>Added support for merged cells in the tree view</li>
+      </ul>
+      <br/>
+  Cross-Platform      <br/>
+      <ul>
+        <li>Many fix to X11 so it is now in a fairly usable state</li>
+      </ul>
+      <br/>
+  Libraries      <br/>
+      <ul>
+        <li>
+          <span>
+Irregex            <ul>
+              <li>Ported Alex Shinn's Irregex library</li>
+            </ul>
+          </span>
+        </li>
+        <li>
+          <span>
+Match            <ul>
+              <li>Ported Alex Shinn's Match library</li>
+            </ul>
+          </span>
+        </li>
+        <li>
+          <span>
+Statprof            <ul>
+              <li>Added support for keeping a backtrace for each registered call</li>
+            </ul>
+          </span>
+        </li>
+        <li><span>Added base64 module (from Gambit's examples)</span></li>
+        <li><span>Loading of a PNG image from a u8vector</span></li>
+      </ul>
+      <br/>
+  IDE      <br/>
+      <ul>
+        <li>Catalogs are now automatically updated on save in a background thread</li>
+        <li>Regular expressions support in the multi-search/replace</li>
+        <li>Added a define-expression macro enabling user expressions to extend the IDE</li>
+        <li>Added basic arrow navigation in F8</li>
+        <li>Added a new SQL workspace</li>
+        <li>Started a Showcase view to showcase available widgets</li>
+        <li>Launch time error now get reported after IDE has finished launching</li>
+        <li>Made mouse copy work accross views and in plain texts</li>
+        <li><span>Added Debug With... menu item to debug using any kernel (core, debug, ...)</span></li>
+        <li>Added full-screen functionality</li>
+        <li>Added register-user-completion(s) to user extend auto-completion</li>
+        <li>Directories search is now done in a background thread</li>
+        <li><span>Every text style can now be customized in the preferences. Have fun!</span></li>
+        <li>Started work on workspaces composed of independent OS windows</li>
+      </ul>
+      <br/>
+  Emacs      <br/>
+      <ul>
+        <li>Added support for all basic emacs commands</li>
+        <li>Incremental search with highlight of every occurence found</li>
+        <li>Added c-x c-f find-file, c-x c-F find-filename and c-x b find-buffer</li>
+        <li>Adding M-y cyclic-paste behavior to emacs bindings</li>
+        <li>An experimental implementation of paredit is available</li>
+      </ul>
+      <br/>
+  Debugger      <br/>
+      <ul>
+        <li>Major improvements to the remote debugger</li>
+        <li>Inspectors now work with remote REPLs</li>
+        <li>Added a Show Dynamic Environment button to the Variables pane</li>
+        <li>Added access to selected frame local variables in REPL evaluations</li>
+        <li>Started work on integrating Gambit's stepper in Jedi</li>
+        <li>Now binding debuggee's current-input/output-port to the debugger's console</li>
+        <li>The inspector can now inspect Gambit structures and types</li>
+      </ul>
+      <br/>
+  Designer      <br/>
+      <ul>
+        <li>Started work on a full-fledged GUI designer</li>
+      </ul>
+      <br/>
+  Website      <br/>
+      <ul>
+        <li>Added a new Hello World tutorial section</li>
+        <li>Added a FAQ</li>
+      </ul>
+      <p></p>
+      <br/>
+ON THE HORIZON      <p></p>
+      <ul>
+        <li>Prototype-based programming</li>
+        <li>Static link of executables</li>
+        <li>Finish work on the GUI designer</li>
+      </ul>
+    </div>
+    <div>
+      <a name="2009-10-19"></a>
+      <h3>2009-10-19 - JazzScheme embraces its Scheme destiny!</h3>
+      <p>The last of the Jazz-specific constructs, namely using 'function' instead of 'lambda', was removed from the language. The decision was made after realizing it was time that Jazz fully embraced its Scheme destiny! </p>
+      <p>We plan on continuing to evolve the Jazz language, platform and IDE to make them ever more Scheme- and Lisp- friendly. </p>
+    </div>
+    <div>
+      <a name="2009-06-27"></a>
+      <h3>2009-06-27 - Auphelia Technologies to use JazzScheme for their new ERP software</h3>
+      <p>
+After an exhaustive evaluation period, <a href="http://www.auphelia.com/">Auphelia Technologies</a> has decided to develop the backend of their new Enterprise Resource Planning product entirely in JazzScheme. Decision is still pending between Qt and JazzScheme for the desktop client but there is a definite preference at this point for using JazzScheme across the whole project. </p>
+      <p>One key element of the decision to use JazzScheme was the high complexity of the project. The project is not to create just another ERP software, but rather a complete dynamic ERP-creation platform. </p>
+      <p>
+On the technical side, the project will include development of the JazzScheme platform by three people over a period of about six months. Planned work includes: <ul>
+          <li>Documentation</li>
+          <li>Static builds of executables and libraries</li>
+          <li>Module system / Hygienic macros</li>
+          <li>Performance / Memory / Stability</li>
+          <li>UI / Interface designer</li>
+          <li>IDE / Remote debugger and profiler</li>
+        </ul></p>
+      <p>Note that Gambit's author, Marc Feeley, has confirmed his participation part-time in the project! </p>
+      <p>
+Various job openings for highly-skilled people where also announced. For details, see: <a href="http://lispjobs.wordpress.com/2009/06/27/auphelia-technologies-erp/">http://lispjobs.wordpress.com/2009/06/27/auphelia-technologies-erp/</a></p>
+    </div>
+    <div>
+      <a name="2009-01-26"></a>
+      <h3>2009-01-26 - JazzScheme Publicly Released</h3>
+JazzScheme was publicly released today. Note that this is a Beta release.       <p></p>
+Information on getting and building the sources can be found here:       <a href="http://www.jazzscheme.org/install.htm#install.sources">Sources</a>
+.       <p></p>
+Consequently, the JazzScheme google group is now freely accessible. Anyone can view the discussion threads and join the group.     </div>
+    <div>
+      <a name="2008-12-24"></a>
+      <h3>2008-12-24 - Closed-beta Release to the discusion group members</h3>
+JazzScheme was released today as a closed-beta to the discusion group members.       <p></p>
+The main goal of this release is to let people experiment with Jazz and the Jedi IDE and gather feedback in preparation for a public release.     </div>
+    <div>
+      <h4 class="section2">Changes since the MSLUG presentation</h4>
+      <span>
+        <p></p>
+        <b>Project Management</b>
+        <p></p>
+Project management has received a major overhaul. The result is hopefully a very flexible and intuitive to learn project management system that offers various project templates for easy learning. Only downside is that most of the tutorials on the website that where created for the MSLUG presentation are now somewhat out of date. Please take a look at them even then as they should help you get started. We will be working on and off to bring them up to date in the next few weeks.       </span>
+      <span>
+        <p></p>
+        <b>Debugger</b>
+        <p></p>
+Using new Gambit hooks, the debugger is now able to locate source code even if it is moved around. This is extremely useful for binary releases where the source code will end up in a different location than the one where it was when the compiled .o1 was generated.       </span>
+      <span>
+        <p></p>
+        <b>Build System</b>
+        <p></p>
+A serious memory problem in the build system has been solved. Before, building Jazz could end up taking up to 2G of memory! Now, after a quick peek of 700M when linking the kernel, the whole build process seldoms takes more than 200M of memory.       </span>
+      <span>
+        <p></p>
+        <b>Kernel</b>
+        <p></p>
+*Every* call to unsafe ## Gambit primitives is now wrapped in a safe %% macro that, depending on the safety chosen in the build configuration will be expanded to either a safe call for 'debug' safety or an unsafe call for 'release' safety. In theory, no code run in 'debug' should ever crash. Note that for performance reasons, the default safety is 'release' and thus by default jazz and jedi are built in 'release'. Should you encounter a serious crash in Jedi, as the build system supports multiple configurations, you can easily build a separate 'debug' version to try and solve the problem.       </span>
+      <span>
+        <p></p>
+        <b>Emacs</b>
+        <p></p>
+An emacs bindings was added to the Jedi IDE. Although there is no objective for Jedi to ever be an emacs clone, we sure plan on integrating every nice emacs concept.       </span>
+      <span>
+        <p></p>
+        <b>User Profile</b>
+        <p></p>
+Every user setting is saved in a 'profile'. If some of these settings are manually edited and corrupted, the IDE would fail to launch. Now, every profile setting will load safely and a generic one will be used should a problem ever occur so that in theory, no amount of corruption should ever stop the IDE from launching correctly.       </span>
+    </div>
+    <div>
+      <h4 class="section2">Todo before the public release</h4>
+      <span>
+        <p></p>
+        <b>Debugger</b>
+        <p></p>
+        <ul>
+          <li>The remote debugger is totally functional at the moment but is still missing many features</li>
+          <li>Common Lisp debugger through SWANK</li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Documentation</b>
+        <p></p>
+A lot of work remains to be done documentation wise. We plan to quickly bring the documentation to at least a point where every stable method has basic documentation so that it is easy for a programmer to know if a method is 'OK' to be used or not.       </span>
+    </div>
+    <div>
+      <a name="2008-11-27"></a>
+      <h3>2008-11-27 - Presentation at the MSLUG and closed-beta release</h3>
+November 27, I will be giving a presentation of JazzScheme at the next       <a href="http://schemeway.dyndns.org/mslug/mslug-home">MSLUG</a>
+ meeting.       <p></p>
+This will also be the occasion for a closed-beta release to prepare for an upcoming public release.       <p></p>
+After the meeting, I will send invitations to all JazzScheme group members to join the closed-beta. I warmly invite all of you to join in the fun!       <p></p>
+Guillaume Cartier      <p></p>
+      <span>
+        <p></p>
+        <b>Announcement</b>
+        <p></p>
+        <cite>
+Date: Thursday, November 27, 2008          <br/>
+Time: 7:00pm - 9:00pm          <br/>
+Location: Room 3195, André-Aisenstadt Building, Université de Montréal          <br/>
+Street: 2920 chemin de la Tour          <br/>
+City/Town: Montreal, QC          <br/>
+          <p></p>
+As some of you know, Guillaume Cartier has been working for the past 12 years on his JazzScheme system. It is a powerful and complete development environment for Scheme applications. You can read about it here:          <p></p>
+          <a href="http://www.jazzscheme.org">http://www.jazzscheme.org</a>
+          <p></p>
+A couple of years ago, he decided to port the whole Jazz kernel to Gambit-C Scheme and to eventually release Jazz under an Open Source License. With the near completion of X11 support, the time to do a full public release is coming very close.           <p></p>
+In order to help spot and iron out the remaining issues for a full public release, Guillaume will be doing a "Closed Beta" release to the participants of the MSLUG. The release will take place at the MSLUG meeting on November 27th. You are encouraged to bring your own laptop, as Guillaume will walk us through the installation of Jazz and the creation of a simple application. Note that Jazz should run on Windows *and* on systems featuring an X11 server.           <p></p>
+Thanks to Marc Feeley, WiFi Internet access will be available at the meeting, which should help with the whole process.           <p></p>
+Once everybody is up and going with the system, we'll merrily go down the mountain to the pub and celebrate the release.           <p></p>
+Everybody is welcome. Please spread the news around and invite friends and colleagues.           <p></p>
+Map of UdeM campus:           <a href="http://www.stcum.qc.ca/metro/images/c56.pdf">http://www.stcum.qc.ca/metro/images/c56.pdf</a>
+          <p></p>
+          <a href="http://schemeway.dyndns.org/mslug/mslug-home">http://schemeway.dyndns.org/mslug/mslug-home</a>
+        </cite>
+      </span>
+    </div>
+    <div>
+      <a name="2008-11-06"></a>
+      <h3>2008-11-06 - X11 Port and Debugger Update</h3>
+      <span>
+        <p></p>
+        <b>X11</b>
+        <p></p>
+I am very happy to report that X11 has progressed by leaps and bounds in the last weeks. A big structural change to the windowing system where Jazz now manages everything inside the toplevel windows fixed nearly all the X11 problems. This change has also unified profoundly the windowing architecture of all platforms so that all platforms should now evolve much more uniformly towards stability and completeness.         <p></p>
+Personally, I have worked exclusively on X11 for the last 2 weeks and it felt almost as good as working under the Windows version. The only things I missed where drag & drop (we are looking into it) and faster scrolling (we are looking into using XCopyArea to implement fast scrolling on X11). There are other shortcomings like dialogs not being modal at the moment so that you can crash the system by being a smart ... and breaking the modality but those are no show-stoppers to use the system as-is imo.         <p></p>
+As the X11 port was the main hurdle to the open-source release, this is very good news. At this point, apart from small improvements, the main task that remains is writing documentation, tutorials, ...       </span>
+      <p></p>
+      <span>
+        <p></p>
+        <b>Debugging</b>
+        <p></p>
+The other big change is that after being unsure for the last 2 years about what was the right approach to having the debugger fully understand the Jazz language, between :        <p></p>
+        <ul>
+          <li>1) writing my own interpreter for the Jazz language and</li>
+          <li>2) fully integrating the Jazz macros with Gambit</li>
+        </ul>
+        <p></p>
+I have finally decided after discussions with Marc Feeley that 2) was the right approach and so I rewrote all Jazz macros as ##define-syntax and added full Gambit source code annotations so that now every Gambit debugging feature works seamlessly with Jazz code like :        <p></p>
+        <ul>
+          <li>precise reporting of the position of an error in the source file</li>
+          <li>stack backtrace with for every frame precise highlighting of the call site</li>
+          <li>statprof statistical profiler is now integrated with Jedi </li>
+          <li>...</li>
+        </ul>
+      </span>
+    </div>
+    <div>
+      <a name="2008-09-26"></a>
+      <h3>2008-09-26 - Public Open-Source Release Update</h3>
+Now that our first JazzScheme contract is over, here is an update on where we stand.       <p></p>
+First of all, I am very happy to say that the contract was a complete success. It proved that developing a business application in the new Gambit based JazzScheme is a viable solution. I must say that development was a charm and on top, the client loves the result!       <p></p>
+For some other very good news, during the contract, to support development we added many missing features to the Jazz platform :       <p></p>
+      <ul>
+        <li>Kernel unit and build system is now language agnostic</li>
+        <li>Project management through a visual workbench</li>
+        <li>GUI remote debugger</li>
+        <li>Programmatic restarts</li>
+        <li>Full unicode support throughout the IDE</li>
+        <li>Printing support on Windows</li>
+        <li>Windows COM support</li>
+        <li>A new crash handler routine on Windows will dump a Gambit stack even on fatal crashes</li>
+      </ul>
+      <p></p>
+      <span>
+        <p></p>
+        <b>Public Open-Source Release</b>
+        <p></p>
+With those new features added, we are very close to a public open-source release of the JazzScheme platform.         <p></p>
+The key feature that still needs work is X11. Unfortunately, the student who did the port now has less available time to spend on the project as his master's degree is taking a lot of his resources. We are still both working on X11 but it may take a while to complete.         <p></p>
+Note that the port was advanced enough that the whole IDE was 90% functional. I would guess the work remaining to be around 2-3 weeks for someone both knowledgeable in X11 and in Jazz. Personally I do not have the time required to delve into X11 but if anyone with good X11 knowledge wants to team up, it could be a fun project and accelerate the completion of the X11 port. Just let me know.       </span>
+      <p></p>
+      <span>
+        <p></p>
+        <b>In Development</b>
+        <p></p>
+        <ul>
+          <li>Jedi as a Gambit IDE with full remote debugging</li>
+          <li>Emacs inspired bindings for basic commands (almost complete)</li>
+        </ul>
+      </span>
+    </div>
+    <div>
+      <a name="2008-04-30"></a>
+      <h3>2008-04-30 - Contract awarded to use the new Gambit based JazzScheme</h3>
+I am very happy to announce that MetaScoop was awarded a contract to implement a full business application using the newly developed Gambit based JazzScheme.       <p></p>
+Note that we will still be developing JazzScheme actively but with focus on more 'business' aspects like :      <ul>
+        <li>Robustness and Performance</li>
+        <li>Full database support on Windows using ADO</li>
+        <li>Printing support on Windows</li>
+        <li>Localization</li>
+        <li>Distribution of built code</li>
+      </ul>
+      <p></p>
+We expect work on the open-source release to resume in about 2 months where at this point finishing X11 will be pretty much all that remains.     </div>
+    <div>
+      <a name="2008-04-29"></a>
+      <h3>2008-04-29 - Progress update</h3>
+Here's a summary of the most important developments in the last 2 months :      <p></p>
+      <span>
+        <p></p>
+        <b>Build system</b>
+        <p></p>
+        <ul>
+          <li>Now using pkg-config to simplify build dependencies processing</li>
+          <li>Added support for binary packages for a complete distribution solution</li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Gambit</b>
+        <p></p>
+Support for the following Gambit features was added :        <ul>
+          <li>TCP/IP</li>
+          <li>Threading</li>
+          <li>U8 vectors</li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Language</b>
+        <p></p>
+        <ul>
+          <li>Added branch prediction to the type system for nillable types and the 'or' special form</li>
+          <li>Implemented a new 'meta' keyword that greatly simplifies metaclass programming</li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Cross-Platform</b>
+        <p></p>
+        <ul>
+          <li>Many improvements on X11</li>
+          <li>Carbon work started up to the point where the Jedi IDE now fully loads</li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Web Server</b>
+        <p></p>
+Ported the Web server / framework to the new Jazz. I must say that Gambit's TCP/IP support, threads, ports and u8vectors made this port a pure pleasure.         <p></p>
+Two new samples where developed to demonstrate the new web framework :        <ul>
+          <li>Gomoku</li>
+          <li>Connect-4</li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Various</b>
+        <p></p>
+        <ul>
+          <li>Views now support arbitrary scaling</li>
+          <li>Added printing support on windows</li>
+          <li>Ported many parts of the visual GUI designer</li>
+        </ul>
+      </span>
+    </div>
+    <div>
+      <a name="2008-02-04"></a>
+      <h3>2008-02-04 - New build system fully implemented in Gambit</h3>
+Here's a summary of the most important developments since the last update (apart from a very nice Christmas vacation with my son :-) :      <span>
+        <p></p>
+        <b>Build system</b>
+        <p></p>
+A new build system was developed to automate Jazz building and deployment. It follows the usual configure / make methodology and is fully implemented in Gambit making it highly portable. See the INSTALL file at the root of the distribution for details.         <p></p>
+        <ul>
+          <li><span>The build will now create a 'jazz' executable file that encapsulates the Jazz kernel. Use this executable to load Jazz code, launch Jazz applications, ...</span></li>
+          <li><span>Under Linux, we are now using pkg-config to simplify building library depencies. </span></li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Package system</b>
+        <p></p>
+A new package system was developed to manage resources uniformly accross the development and deployment stages of a project.         <p></p>
+        <ul>
+          <li>With it, Jazz applications can be deployed as compiled binaries, source files or as a mix of both. </li>
+          <li>Jazz will use a sha-1 digest of the source file to automatically determine if a file should be loaded interpreted or compiled. </li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>Generic methods</b>
+        <p></p>
+Jazz now implements generic dispatch on an arbitrary number of parameters.       </span>
+      <span>
+        <p></p>
+        <b>Port fixes</b>
+        <p></p>
+        <ul>
+          <li>View debugging tools (F8) are now fully functional under Windows. </li>
+          <li>Groupware compare directories and compare files. </li>
+          <li>Login dialog. </li>
+          <li>Users management. </li>
+        </ul>
+      </span>
+      <span>
+        <p></p>
+        <b>X11</b>
+        <p></p>
+A lot of progress was made on the X11 port which is now very close to being usable.       </span>
+      <span>
+        <p></p>
+        <b>Time</b>
+        <p></p>
+Ported the very nice Time Data Types and Procedures SRFI-19 to Jazz.       </span>
+      <span>
+        <p></p>
+        <b>Various</b>
+        <p></p>
+        <ul>
+          <li>Many Gambit specific improvements related to performance and space. </li>
+          <li>All jazz units have now been ported to the new kernel at least enough to load correctly. </li>
+        </ul>
+      </span>
+    </div>
+    <div>
+      <a name="2007-11-11"></a>
+      <h3>2007-11-11 - New Gambit based kernel now faster than the old C++ kernel!</h3>
+A lot has happened since the last news update a month 1/2 ago. Let me try and summarize the most important developments :      <span>
+        <p></p>
+        <b>Performance</b>
+        <p></p>
+As I was saying in the last message, performance was very critical as this stage as it was so far behind the old Jazz as to make the new one unusable. The benchmark I have been using is editing Window.jazz a big file with lots of syntax coloring necessitating a lot of sexpr navigation. As every Lisp related tool must be able to navigate sexpr in text, those operations are so critical that in the old Jazz they where handcoded directly in C. So keep in mind that in the benchmark results, it is handcoded C code vs Jazz code generating Gambit code.        <p></p>
+First timing was :        <p></p>
+Old Jazz : 0.3s        <br/>
+New Jazz : 28.5s        <p></p>
+so 95x slower.        <p></p>
+We are now at 0.17s so 167x faster than the first version and 60% faster than the old handcoded C code. Note that there is still a lot of room to make this much faster but now that performance is acceptable we are going to put performance aside for a while in favor of other priorities.         <p></p>
+Thanks to Guillaume Germain for his wonderful statprof statistical profiler which really helped in finding the hot spots to optimize.       </span>
+      <span>
+        <p></p>
+        <b>Type System</b>
+        <p></p>
+Jazz now supports a fairly complete and completely optional type system.         <p></p>
+Every part of a Scheme program can now be type annotated. Note that usually, just annotating the type of the input parameters of a function will be sufficient, as the new type system will use type inference whenever possible to deduce the type of expressions.         <p></p>
+To support the new type system, a new experimental specializer / template system is also available. Any comments / suggestions on this part are most welcome as it is unclear what is the best approach: templates a la c++, generics a la java, parameterized types, ...         <p></p>
+Note that Jazz as a whole doesn't use the new type system a lot. I'd say that around 30 files out of Jazz's 3000+ files use the new type system. Annotating only those 30 something critical units resulted in huge performance improvements. Also note that the type annotations are purely optional and removing any of them will not change any code semantics.       </span>
+      <span>
+        <p></p>
+        <b>IDE</b>
+        <p></p>
+The IDE while still missing a lot of functionality has become functional enough for it to become usable. I now try and use it as my main development IDE over the old Jazz's IDE.         <p></p>
+Mainly missing from the old Jazz IDE is debugging support. We are still relying on the Gambit console. Note that this is really not painful at all as the Jazz generated Scheme code is so close to the original code that reading a Gambit stack of Jazz code is almost identical as what a pure Jazz debugger stack would look like.       </span>
+      <span>
+        <p></p>
+        <b>Scheme Compliance</b>
+        <p></p>
+The old Jazz, although 'Scheme inspired' was never a full Scheme implementation.         <p></p>
+Everything that Jazz was redefining from Scheme was rethought / renamed so that now I am very happy to report that Jazz is now a full R5RS Scheme (to be more precise: as R5RS as the underlying Scheme you are using is) system where any R5RS Scheme code can be run as is inside a Jazz unit or module.         <p></p>
+If pure Scheme is used inside a Jazz unit or module, the resulting code will have no overhead and will be the exact same code. The Jazz module system will just validate at compile time that every symbol referenced exists in the underlying Scheme system and report any unresolved symbols.       </span>
+      <span>
+        <p></p>
+        <b>Cross-Platform / X11</b>
+        <p></p>
+The Jedi IDE while not functional, is now booting completely under X11! What was astonishing was that nothing was working, and a couple changes later, Jeremie had a version where *everything* was rendering perfectly! The port of the graphical code to Cairo really payed off there. I am very happy about this new development, especially as Jeremie was able to pull this off part time while studying for his master's degree. Gratz!         <p></p>
+Public beta release is still planned for very early 2008.       </span>
+    </div>
+    <div>
+      <a name="2007-09-26"></a>
+      <h3>2007-09-26 - Jedi running under the new Gambit based kernel</h3>
+I am very happy to report that Jedi, the Jazz IDE is now running under the new Gambit based kernel. Lots of features where temporarely commented out but basically most of the language and the library has now been ported to the new kernel.       <p></p>
+The port of 100+ C++ classes to Gambit was very demanding at first but now the development has really become a joy. Even though the start was difficult, developing the new kernel on Gambit's extremely robust, fast and flexible architecture has now surpassed all my expentations in development speed and quality of code that could be developed with it. Cheers to Gambit!       <p></p>
+Next steps are:       <ul>
+        <li>Complete the port</li>
+        <li>Optimize the new kernel to make it as fast as Gambit can be (that's fast!)</li>
+        <li>Port the library and IDE to Mac and X11 (this should be fairly fast at this point)</li>
+      </ul>
+I expect a first beta, beginning of 2008.     </div>
+    <div>
+      <a name="2007-08-08"></a>
+      <h3>2007-08-08 - Presentation at the lispvan</h3>
+Guillaume Cartier gave a presentation of JazzScheme at the Vancouver Lisp Users Group. See       <a href="http://bc.tech.coop/blog/070810.html">Bill Clementson's Blog</a>
+ for a nice summary.     </div>
+    <div>
+      <a name="2007-05-28"></a>
+      <h3>2007-05-28 - JazzScheme 1.0b6 available</h3>
+This version is a candidate for the public release. Only bug fixes are planned until the public release. See the       <a href="new.htm">What's New</a>
+ section for details.     </div>
+    <div>
+      <a name="2007-05-14"></a>
+      <h3>2007-05-14 - Work on porting JazzScheme to X11 and Macintosh started</h3>
+Active work has started on porting the JazzScheme platform to other operating systems. Support is planned for the following platforms: Windows, X11 and Macintosh.     </div>
+    <div>
+      <a name="2007-05-03"></a>
+      <h3>2007-05-03 - JazzScheme 1.0b5 available</h3>
+This version adds a lot of support for Scheme code edition which is now almost on par with Jazz code. See the       <a href="new.htm">What's New</a>
+ section for details.     </div>
+    <div>
+      <a name="2007-04-23"></a>
+      <h3>2007-04-23 - JazzScheme public beta released</h3>
+First publicly available beta release of JazzScheme.     </div>
+    <div>
+      <a name="2007-01-12"></a>
+      <h3>2007-01-12 - JazzScheme ported to Visual Studio 2005</h3>
+JazzScheme was successfully ported to Visual Studio 2005. This is a key milestone for Jazz, as with Microsoft's release of Visual Studio 2005 Express as a free downloadable package that can be used to build C++ applications with no licensing restrictions, Jazz can now be used as a 100% free development platform for building Windows applications.     </div>
+    <div>
+      <a name="2006-12-13"></a>
+      <h3>2006-12-13 - Presentation at the MSLUG</h3>
+Guillaume Cartier gave a presentation of JazzScheme at the Montreal Lisp/Scheme User Group. See       <a href="http://schemeway.dyndns.org/mslug">http://schemeway.dyndns.org/mslug</a>
+ for details.    </div>
+    <div>
+      <a name="2006-12-12"></a>
+      <h3>2006-12-12 - Montreal company to use JazzScheme</h3>
+      <a href="http://www.isaix.com">IsaiX Technologies</a>
+ a high tech Montreal company, has decided to use JazzScheme for one of its top projects. Using JazzScheme, they plan on developing a real time scheduling engine for       <a href="http://www.chyma.net">Chyma</a>
+ their Health Care Industry product.    </div>
+    <div>
+      <a name="2006-11-22"></a>
+      <h3>2006-11-22 - Website goes live</h3>
+A first version of the JazzScheme website is now live!    </div>
+    <div id="footer">
+      <p>Copyright &copy; 1996-2018 Guillaume Cartier</p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
